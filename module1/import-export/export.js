@@ -8,8 +8,11 @@ function Sum(a, b) {
 
 const user = {
     name: "John",
-    say: () => {
+    hello: () => {
         console.log("Hello, John");
+    },
+    hi: () => {
+        console.log("Hi " + this.name);
     }
 }
 
